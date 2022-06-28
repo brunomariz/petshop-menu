@@ -19,7 +19,7 @@ function Service({ petshopService, clearBg }: Props) {
       }
     >
       <div className="text-3xl my-2">{petshopService.title}</div>
-      <div className="my-2">{petshopService.description}</div>
+      <div className="my-2 italic">{petshopService.description}</div>
       <div className="text-2xl flex justify-between items-center my-2">
         <span>
           {typeof petshopService.price == "number"
@@ -33,7 +33,7 @@ function Service({ petshopService, clearBg }: Props) {
               href={`https://wa.me/${process.env.REACT_APP_TEL_NUMBER}`}
               className={`${
                 clearBg ? "bg-metropoleGreen" : "bg-metropoleTeal"
-              } p-1 px-8 rounded-md text-lg block`}
+              } p-1 px-8 rounded-md text-lg block font-bold`}
             >
               Contato
             </a>

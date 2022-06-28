@@ -6,9 +6,11 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="bg-metropoleTeal bg-opacity-50">
-      <Header></Header>
-      <ServiceList></ServiceList>
+    <div className="bg-metropoleTeal bg-opacity-20">
+      <div className="max-w-screen-sm flex flex-col mx-auto">
+        <Header></Header>
+        <ServiceList></ServiceList>
+      </div>
     </div>
   );
 }
