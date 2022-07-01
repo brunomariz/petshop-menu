@@ -1,5 +1,6 @@
 import React from "react";
 import { PetshopService } from "../@types/petshopService";
+import { FaWhatsapp } from "react-icons/fa";
 
 type Props = {
   petshopService: PetshopService;
@@ -23,11 +24,13 @@ function Service({ petshopService, clearBg }: Props) {
         `${clearBg ? "bg-opacity-20" : "bg-opacity-75"}`
       }
     >
-      <div className="text-3xl my-2 capitalize">{petshopService.title}</div>
+      <div className="text-3xl text-[2rem] my-2 capitalize">
+        {petshopService.title}
+      </div>
       <div className="my-2 italic opacity-75">
         {capitalizeFirstLetter(petshopService.description)}
       </div>
-      <div className="text-2xl flex justify-between items-center my-2">
+      <div className="text-3xl flex justify-between items-center my-2">
         <span>
           {typeof petshopService.price == "number"
             ? realLocale.format(petshopService.price)
@@ -40,9 +43,12 @@ function Service({ petshopService, clearBg }: Props) {
               href={`https://wa.me/${process.env.REACT_APP_TEL_NUMBER}`}
               className={`${
                 clearBg ? "bg-metropoleGreen" : "bg-metropoleTeal"
-              } p-1 px-8 rounded-md text-lg block font-bold`}
+              } p-1 px-5 rounded-md text-lg font-bold flex items-center justify-between`}
             >
-              Contato
+              <span className="pr-2 py-1">
+                <FaWhatsapp size={25}></FaWhatsapp>
+              </span>
+              <span>Contato</span>
             </a>
           </button>
         </span>
