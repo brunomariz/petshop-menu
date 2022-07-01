@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import ServiceList from "./components/ServiceList";
 import Header from "./components/Header";
+import BackToTop from "./components/BackToTop";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="max-w-screen-sm flex flex-col mx-auto">
         <Header></Header>
         <ServiceList></ServiceList>
+        <BackToTop></BackToTop>
       </div>
     </div>
   );
