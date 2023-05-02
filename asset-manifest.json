@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/petshop-menu/static/css/main.0dc2eb65.css",
-    "main.js": "/petshop-menu/static/js/main.6123dd0d.js",
+    "main.js": "/petshop-menu/static/js/main.b981f516.js",
     "static/js/787.cbadbd85.chunk.js": "/petshop-menu/static/js/787.cbadbd85.chunk.js",
     "static/media/metropole.png": "/petshop-menu/static/media/metropole.54fba9dbca627073209c.png",
     "index.html": "/petshop-menu/index.html",
     "main.0dc2eb65.css.map": "/petshop-menu/static/css/main.0dc2eb65.css.map",
-    "main.6123dd0d.js.map": "/petshop-menu/static/js/main.6123dd0d.js.map",
+    "main.b981f516.js.map": "/petshop-menu/static/js/main.b981f516.js.map",
     "787.cbadbd85.chunk.js.map": "/petshop-menu/static/js/787.cbadbd85.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0dc2eb65.css",
-    "static/js/main.6123dd0d.js"
+    "static/js/main.b981f516.js"
   ]
 }
