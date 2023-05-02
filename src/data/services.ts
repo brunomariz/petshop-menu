@@ -146,10 +146,17 @@ srd, siames, persa, sagrado da birmania, `,
   },
 
   {
-    title: "carding p/M",
+    title: "carding p",
     description: `consiste em uma técnica de escovação indolor na qual é realizada a retirada de subpelos (pelos mortos). com ela, aqueles pelinhos mais finos e não vistos, que sempre caem pela casa ou formam nós, são eliminados de forma rápida e eficiente.
 `,
     price: 25.0,
+  },
+
+  {
+    title: "carding M",
+    description: `consiste em uma técnica de escovação indolor na qual é realizada a retirada de subpelos (pelos mortos). com ela, aqueles pelinhos mais finos e não vistos, que sempre caem pela casa ou formam nós, são eliminados de forma rápida e eficiente.
+`,
+    price: 30.0,
   },
 
   {
