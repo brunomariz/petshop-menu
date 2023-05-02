@@ -41,7 +41,7 @@ border collie, buldog ingles, bull terrier, boxer, basset hound, dalmata, pit bu
     description: `banho secagem e escovaçao da pelagem. incluso escovação de dentes, limpeza de orelhas, corte de unhas, perfume, enfeite
 
 akita, golden, pastor alemão, samoieda, chow chow, husky siberiano, labrador, rhodesian, rottweiler`,
-    price: 120.0,
+    price: 115.0,
   },
 
   {
@@ -57,7 +57,7 @@ bernese, dogue alemão, kuvasz`,
     description: `banho secagem e escovaçao da pelagem. incluso limpeza de orelhas, corte de unhas, perfume, enfeite
 
 srd, siames, persa, sagrado da birmania, `,
-    price: 95.0,
+    price: 90.0,
   },
 
   {
