@@ -40,10 +40,10 @@ function Service({ petshopService, clearBg }: Props) {
           <button>
             <a
               target={"_blank"}
+              rel="noreferrer"
               href={`https://wa.me/${process.env.REACT_APP_TEL_NUMBER}`}
-              className={`${
-                clearBg ? "bg-metropoleGreen" : "bg-metropoleTeal"
-              } p-1 px-5 rounded-md text-lg font-bold flex items-center justify-between`}
+              className={`${clearBg ? "bg-metropoleGreen" : "bg-metropoleTeal"
+                } p-1 px-5 rounded-md text-lg font-bold flex items-center justify-between`}
             >
               <span className="pr-2 py-1">
                 <FaWhatsapp size={25}></FaWhatsapp>

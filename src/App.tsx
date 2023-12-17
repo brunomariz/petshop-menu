@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import ServiceList from "./components/ServiceList";
 import Header from "./components/Header";

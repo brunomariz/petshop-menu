@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { FaChevronUp } from "react-icons/fa";
 
-type Props = {};
+// type Props = {};
 
-function BackToTop({}: Props) {
+function BackToTop() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const handleScroll = () => {
     const position = window.pageYOffset;
@@ -22,9 +22,8 @@ function BackToTop({}: Props) {
 
   return (
     <button
-      className={`${
-        scrollPosition < 200 && "scale-0"
-      } fixed left-1/2 -translate-x-1/2 bottom-5 hover:scale-110 transition-all`}
+      className={`${scrollPosition < 200 && "scale-0"
+        } fixed left-1/2 -translate-x-1/2 bottom-5 hover:scale-110 transition-all`}
       onClick={() => window.scrollTo(0, 0)}
     >
       <div className="p-2 bg-black opacity-75 bg-opacity-30 rounded-full">

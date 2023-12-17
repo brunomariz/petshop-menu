@@ -1,12 +1,12 @@
 import React from "react";
 import logo from "../img/metropole.png";
 
-type Props = {};
+// type Props = {};
 
-function Header({}: Props) {
+function Header() {
   return (
     <div className="p-2 bg-white flex items-center justify-center w-full h-32">
-      <img src={logo} className="h-full" />
+      <img alt="Logo do Metropole Pet Shop" src={logo} className="h-full" />
     </div>
   );
 }
