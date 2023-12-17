@@ -2,7 +2,7 @@ import { PetshopService } from "../@types/petshopService";
 
 export const services: PetshopService[] = [
   {
-    title: "banho: PP",
+    title: "banho: PPPPP",
     description: `banho secagem e escovaçao da pelagem. incluso escovação de dentes, limpeza de orelhas, corte de unhas, perfume, enfeite
 
 animais até 3 kg e das seguintes raças:
